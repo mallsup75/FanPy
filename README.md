@@ -26,6 +26,7 @@ At a player level, Elly De La Cruz is the best keeper in the league. With a $4M 
  
 Tigers Rock! Has the best keepers, and you can see how the rest shakes out.  
 
+https://github.com/mallsup75/FanPy/blob/main/top_value_zone.jpg
 
 
 Link to google doc share w/ sample outputs and insights: https://docs.google.com/document/d/1aT6LcVgrBjPe1tGGc1BZeq9taQvMbl27AsXyitxrVEk/edit?usp=sharing
