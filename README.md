@@ -28,5 +28,24 @@ Tigers Rock! Has the best keepers, and you can see how the rest shakes out.
 
 https://github.com/mallsup75/FanPy/blob/main/top_value_zone.jpg
 
+Top 100 ADP Sampling. The difference between a Keeper and a perennial free agent. Displayed is salary trend by player and franchise.
 
-Link to google doc share w/ sample outputs and insights: https://docs.google.com/document/d/1aT6LcVgrBjPe1tGGc1BZeq9taQvMbl27AsXyitxrVEk/edit?usp=sharing
+Top 150 ADP Head to Head.
+How do top players stack up, head to head, for two of the rosters?
+
+Top 100 ADP Sampling.
+Worst drops/trades/not kept of fantrax area?
+
+Get Brute 2021 Witt $1M (see also: Mirriam Aaaron Inc)
+HH 2023 C.Walker $4M (see also:Serverless Concepts)
+GRP 2021 L.Webb $3M (see also: Jims Deserts Rats)
+ACC 2022 B.Reynolds $1M (see also: ghost casper)
+MB 2022 M.King $3M
+HAM 2022 G.Henderson $1M (trade for Luis Castillo)
+EXC 2021 L.Gilbert $1M (see also: Broome Street Bombers)
+TR 2022 W.Contreras $3M
+SNOW 2022 Casas $1M  (see also: Tc Tuggers)
+
+
+Footnotes:
+ *While the lower values are what is used, note for the purpose of data visualization, I inverted the result values so that a smaller index with appear larger in the graphs.
