@@ -16,7 +16,11 @@ Salary was normalized, by position, with a 0-1 scale
 
 Z-Scores were calculated to standardize them for the purpose of the index.
 
-ADP factored with Player Salary is used to calculate 
+https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg
+
+https://github.com/mallsup75/FanPy/blob/main/OFD_normalized_impact_multiaxis_view.jpg
+
+(ADP factored with Player Salary is used in the calculation.) 
 
 <All data sourced from fantrax is sourced api via python using apache airflow >>
 
@@ -28,10 +32,29 @@ Tigers Rock! Has the best keepers, and you can see how the rest shakes out.
 
 https://github.com/mallsup75/FanPy/blob/main/top_value_zone.jpg
 
+The worst:
+https://github.com/mallsup75/FanPy/blob/main/worst_value_zone.jpg
+
+Value Zone samples:
+https://github.com/mallsup75/FanPy/blob/main/1b_value_zone.jpg
+
+https://github.com/mallsup75/FanPy/blob/main/P_value_zone.jpg
+
+https://github.com/mallsup75/FanPy/blob/main/SS_value_zone.jpg
+
 Top 100 ADP Sampling. The difference between a Keeper and a perennial free agent. Displayed is salary trend by player and franchise.
 
+https://github.com/mallsup75/FanPy/blob/main/spark_overyear_sample.jpg
+
+https://github.com/mallsup75/FanPy/blob/main/tale_of_keeper_or_not.jpg
+
 Top 150 ADP Head to Head.
-How do top players stack up, head to head, for two of the rosters?
+How do top players stack up, head to head, for two pairs of rosters?
+
+
+https://github.com/mallsup75/FanPy/blob/main/ham_v_steamers.jpg
+
+https://github.com/mallsup75/FanPy/blob/main/snow_v_bluberry.jpg
 
 Top 100 ADP Sampling.
 Worst drops/trades/not kept of fantrax area?
