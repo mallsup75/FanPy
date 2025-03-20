@@ -3,12 +3,13 @@ End-to-End Data Engineering Components Extract raw JSON roster data from bronze 
 
 Link to PDF w/ design diagram and walk through: https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf
 
-
-Keeper Value Scoring - 150 Bestballer Baseball  3/13/25 
-About: 
-The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric).
  
-The ADP ,average draft position, is sourced  from the fantrax.
+The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric). 
+
+The ADP ,average draft position, is sourced  from the fantrax API.
+ADP is a moving number, and was captured prior to spring training and the ADP is the average across all fantrax tenants as of March 1 2025. 
+ 
+The salary is specific to the Bestballer 150 League, and represents the bid amount/injured pickup value limited to the 12 league managers in our fantrax tenant. 
 
 ADP was normalized , by position, with a 0-1 scale 
 
