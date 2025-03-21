@@ -1,5 +1,6 @@
 # FanPy
-End-to-End Data Engineering Components 
+End-to-End Data Engineering Components using python 
+
 Extract raw JSON roster data from API. landing to bronze container using orchestrated workflow.
 
  DAG Setup: Designed an Apache Airflow DAG to automate the process
