@@ -1,5 +1,12 @@
 # FanPy
-End-to-End Data Engineering Components Extract raw JSON roster data from bronze container using orchestrated workflow.  How: DAG Setup: Designed an Apache Airflow DAG to automate the process: Tasks: List Blobs: Query bronzeDownload and Parse: Fetch JSONs using BlobServiceClient, parse into a Pandas DataFrame.
+End-to-End Data Engineering Components 
+Extract raw JSON roster data from API. landing to bronze container using orchestrated workflow.
+
+ DAG Setup: Designed an Apache Airflow DAG to automate the process
+
+Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, parse into a Pandas DataFrame.
+
+Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
 
 Link to PDF w/ design diagram and walk through: https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf
 
