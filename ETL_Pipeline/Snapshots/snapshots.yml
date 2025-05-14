@@ -1,0 +1,58 @@
+version: 2
+
+snapshots:
+  - name: snapshot_product
+    description: Snapshot of product data capturing historical changes using SCD Type 2.
+    config:
+      target_schema: copeland_schema
+      strategy: timestamp
+      updated_at: updated_at
+      unique_key: product_id
+      invalidate_hard_deletes: true
+    columns:
+      - name: product_id
+        description: Unique identifier for the product.
+        tests:
+          - not_null
+          - unique
+      - name: price_per_unit
+        description: price per unit.
+        tests:
+          - not_null
+      - name: updated_at
+        description: Timestamp of the last update to the customer record.
+      - name: purchase_category
+        description: The category of the purchase.
+        tests:
+          - not_null
+      - name: dbt_valid_from
+        description: Timestamp when this record became valid (SCD Type 2).
+      - name: dbt_valid_to
+        description: Timestamp when this record ceased to be valid (null for current record).
+
+  - name: snapshot_customer
+    description: Snapshot of customer data capturing historical changes using SCD Type 2.
+    config:
+      target_schema: copeland_schema
+      strategy: timestamp
+      updated_at: updated_at
+      unique_key: customer_id
+      invalidate_hard_deletes: true
+    columns:
+      - name: customer_id
+        description: Unique identifier for the customer.
+        tests:
+          - not_null
+          - unique
+      - name: region
+        description: region name of the customer.
+        tests:
+          - not_null
+      - name: updated_at
+        description: Timestamp of the last update to the customer record.
+        tests:
+          - not_null
+      - name: dbt_valid_from
+        description: Timestamp when this record became valid (SCD Type 2).
+      - name: dbt_valid_to
+        description: Timestamp when this record ceased to be valid (null for current record).
