@@ -7,23 +7,23 @@ data platform of choice: Big Query (Snowflake considerations are included)
 Steps:
 
 
-Created/Uploaded 'TransactionalData.csv' as Seed file in dbt 
+1.Created/Uploaded 'TransactionalData.csv' as Seed file in dbt 
 
 
-create source schema.yml: 'src_copeland.yml' for purpose of assigning schema, defining of seeds
+2.create source schema.yml: 'src_copeland.yml' for purpose of assigning schema, defining of seeds
 
 
-create stage table from source: 'stg_copeland_transactions.sql'
+3.create stage table from source: 'stg_copeland_transactions.sql'
 
 
-..convert STRINGS to TIME
+4..convert STRINGS to TIME
 
 
-create snapshot.yml: 'snapshots.yml'
+5.create snapshot.yml: 'snapshots.yml'
 
 
 
-create snapshots from stage: 'snapshot_customer.sql' , 'snapshot_product.sql'
+6.create snapshots from stage: 'snapshot_customer.sql' , 'snapshot_product.sql'
 
 
 
