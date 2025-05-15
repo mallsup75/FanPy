@@ -4,6 +4,22 @@ transformation tool of choice: dbt
 data platform of choice: Big Query (Snowflake considerations are included)
 
 
+data platform disclaimer: This solution uses Google BigQuery as the data platform instead of Snowflake, as specified in the exercise. 
+I chose BigQuery because my hands-on dbt environment is configured to connect to BigQuery by default, aligning with the dbt 1.9 project
+setup used throughout this exercise (e.g., hale-equator-455714-m5.dbt_mallsup.copeland_wide).
+
+
+While BigQuery and Snowflake differ in architecture, querying syntax, and performance characteristics, 
+the core functionality of the solution—such as JSON parsing, incremental materialization, and MDM schema design—remains equivalent.
+Key differences, including BigQuery’s use of JSON_EXTRACT_SCALAR versus Snowflake’s GET_PATH, and BigQuery’s serverless architecture
+versus Snowflake’s compute-storage separation, have been considered to ensure compatibility. 
+
+When it comes to timestamp handling, TIMESTAMP would likely be TIMESTAMP_NTZ in Snowflake, and Snowflake's TO_TIMESTAMP would handle parsing.
+
+The solution leverages BigQuery’s strengths, such as native JSON support and seamless dbt integration, to achieve the exercise’s objectives effectively.
+
+
+
 Steps:
 
 
