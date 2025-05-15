@@ -44,7 +44,6 @@ SELECT
   CONCAT(a.eventuhub_id, '-', STA.alarm_type) AS event_alarm_id,
   a.companies,
   a.deviceid,
-  a.devicetype,
   STA.logged,
   STA.alarm_type,
   STA.alarm_timestamp,
@@ -65,5 +64,5 @@ JOIN {{ source('copeland_seeds', 'copeland_wide') }} a
 WHERE STA.alarm_timestamp IS NOT NULL
   AND STA.logged IS NOT NULL
 {% if is_incremental() %}
-  AND (a.updated_at > (SELECT COALESCE(MAX(updated_at), '1900-01-01') FROM {{ this }}) OR a.updated_at IS NULL)
+  AND (a.logged > (SELECT COALESCE(MAX(logged), '1900-01-01') FROM {{ this }}) OR a.logged IS NULL)
 {% endif %}
