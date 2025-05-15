@@ -57,6 +57,6 @@ Singular test for other alarm values!
 Relationship check!
 
 
-![Alt text](https://github.com/mallsup75/FanPy/blob/cope/DataModeling/wide-event-dag.JPG)
+![Alt text](https://github.com/mallsup75/FanPy/blob/cope/DataModeling/wide-event-dag2.JPG)
 
 ![Alt text](https://github.com/mallsup75/FanPy/blob/cope/DataModeling/erd-data-modeling.JPG)
