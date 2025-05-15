@@ -19,5 +19,12 @@ Tasks:
 
 3. explain how to ensure data governance and quality
 
+A: Profisee governs the actual content of master data (e.g. correct customer names) ; profisee for cleansing 
+and deduplication, rules handling, and stewardship interaction
+
+As for other tenants of governance:  Purview catalogs, classifies, and tracks where and how that data is used across the enterprise.
 
 4. how to handle versioning, historical tracking, and synchronization between hub and operational systems
+
+A: Best practice is to rely on MDM Hub provided GUI to handle versioning, historical tracking, and synchronization. 
+This is functionality that is better off buying from a vendor vs. building yourself.
