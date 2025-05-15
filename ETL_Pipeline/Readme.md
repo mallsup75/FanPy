@@ -78,7 +78,10 @@ assumptions:
 
 
 
-How to schedule on daily basis:
+How to schedule on daily basis: ADF orchestration pipeline with dbt pipeline integration:
+
+![Alt text](https://github.com/mallsup75/FanPy/blob/cope/ETL_Pipeline/pipeline.JPG)
+
 ![Alt text](https://github.com/mallsup75/FanPy/blob/cope/ETL_Pipeline/dbt-etl-pipeline.JPG)
 
 ![Alt text](https://github.com/mallsup75/FanPy/blob/cope/ETL_Pipeline/erd-pipelinedesign.JPG)
