@@ -1,1 +1,19 @@
+Your company is implementing MDM using a central hub (e.g. Informatica MDM or Profisee ) and needs to integrate 
 
+1. customer CRM
+
+2. customer ERP
+
+3. customer eCommerce
+
+
+Tasks:
+
+
+1. design of data flow for integration into hub
+
+
+2. explain how to ensure data governance and quality
+
+
+3. how to handle versioning, historical tracking, and synchronization between hub and operational systems
