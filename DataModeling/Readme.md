@@ -58,3 +58,5 @@ Relationship check!
 
 
 ![Alt text](https://github.com/mallsup75/FanPy/blob/cope/DataModeling/wide-event-dag.JPG)
+
+![Alt text](https://github.com/mallsup75/FanPy/blob/cope/DataModeling/erd-data-modeling.JPG)
