@@ -11,6 +11,33 @@ Tasks:
 
 
 1. design of data flow for integration into hub
+
+   
+'MDM_Integration/MDM_DDLs/Hub_tables.sql'
+
+
+....create tables: 'Source_System' , 'Source_Customer_Record' , 'Record_Mapping' , 'Golden_Record'
+
+
+
+'MDM_Integration/SQL/Insert_statements.sql'
+
+
+....insert sample provided records from csv to hub tables.
+
+
+
+'MDM_Integration/SQL/Retrieve_query.sql'
+
+
+....sample retrieval query from Golden_Record with joins
+
+
+'MDM_Integration/SQL/Output.txt'
+
+
+....sample retrieval results from Golden_Record
+   
 ![Alt text](https://github.com/mallsup75/FanPy/blob/cope/MDM_Integration/MDM_DDLs/profisee-hub.JPG)
 
 
