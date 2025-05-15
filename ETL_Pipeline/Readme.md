@@ -59,17 +59,7 @@ assumptions:
 
 10. updated_at should be DATETIME , safe to use for pinning of snapshot/incremental logic
 
-    
 
-TO DO: 
-
-Schema model looks like:
-
-
-Data aggregration and cleansing (missing values, normalizing data):
-
-
-Implement incremental loading for performance optimization:
 
 
 How to schedule on daily basis:
