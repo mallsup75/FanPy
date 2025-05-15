@@ -17,3 +17,4 @@ Tasks:
 
 
 3. how to handle versioning, historical tracking, and synchronization between hub and operational systems
+![Alt text]((https://github.com/mallsup75/FanPy/blob/cope/MDM_Integration/MDM_DDLs/erd-golden-record-mapping.JPG)
