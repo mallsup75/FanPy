@@ -11,7 +11,7 @@ Tasks:
 
 
 1. design of data flow for integration into hub
-
+![Alt text](https://github.com/mallsup75/FanPy/blob/cope/MDM_Integration/MDM_DDLs/profisee-hub.JPG)
 
 2. explain how to ensure data governance and quality
 
