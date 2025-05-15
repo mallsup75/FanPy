@@ -73,6 +73,6 @@ Implement incremental loading for performance optimization:
 
 
 How to schedule on daily basis:
-![Alt text] (https://github.com/mallsup75/FanPy/blob/cope/ETL_Pipeline/dbt-etl-pipeline.JPG)
+![Alt text](https://github.com/mallsup75/FanPy/blob/cope/ETL_Pipeline/dbt-etl-pipeline.JPG)
 
 ![Alt text](path/to/your/image.jpeg)
