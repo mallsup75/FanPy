@@ -1,4 +1,8 @@
 # FanPy
+Link to PDF w/ design diagram and walk through: 
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/fanpy_arch_diag.JPG)
+[View the PDF](https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf)
+
 End-to-End Data Engineering Components using python 
 ![Alt_text](https://github.com/mallsup75/FanPy/blob/main/python/img/why-apache-airflow.JPG)
 
@@ -14,10 +18,6 @@ Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, pars
 Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
 [View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/combine_rosters_to_silver_dag.py)
 
-Link to PDF w/ design diagram and walk through: 
-![Alt_text](https://github.com/mallsup75/FanPy/blob/main/fanpy_arch_diag.JPG)
-[View the PDF](https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf)
- 
 The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric). 
 [View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/normalizeADPSalary.ipynb)
 
