@@ -1,12 +1,14 @@
 # FanPy
 End-to-End Data Engineering Components using python 
 
+DAG Setup: Designed an Apache Airflow DAG to automate the process
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/python/img/py-players-to-blob-dag.JPG)
+
 Extract raw JSON roster data from API. landing to bronze container using orchestrated workflow.
 [View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/fetch_team_rosters_dag.py)
 
- DAG Setup: Designed an Apache Airflow DAG to automate the process
-
 Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, parse into a Pandas DataFrame.
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/python/img/py-flattenvia-extend-loop.JPG)
 
 Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
 [View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/combine_rosters_to_silver_dag.py)
@@ -30,6 +32,8 @@ ADP was normalized , by position, with a 0-1 scale
 Salary was normalized, by position, with a 0-1 scale 
 
 Z-Scores were calculated to standardize them for the purpose of the index.
+![Alt text](https://github.com/mallsup75/FanPy/blob/main/python/img/z-scoring.JPG)
+
 ![Alt text](https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg)
 
 ![Alt_text](https://github.com/mallsup75/FanPy/blob/main/OFD_normalized_impact_multiaxis_view.jpg)
