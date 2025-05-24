@@ -2,20 +2,25 @@
 End-to-End Data Engineering Components using python 
 
 Extract raw JSON roster data from API. landing to bronze container using orchestrated workflow.
+[View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/fetch_team_rosters_dag.py)
 
  DAG Setup: Designed an Apache Airflow DAG to automate the process
 
 Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, parse into a Pandas DataFrame.
 
 Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
+[View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/combine_rosters_to_silver_dag.py)
 
 Link to PDF w/ design diagram and walk through: 
 ![Alt_text](https://github.com/mallsup75/FanPy/blob/main/fanpy_arch_diag.JPG)
 [View the PDF](https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf)
  
 The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric). 
+[View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/normalizeADPSalary.ipynb)
 
 The ADP ,average draft position, is sourced  from the fantrax API.
+[View my Python script](https://github.com/mallsup75/FanPy/blob/main/python/dags/players_to_blob_dag.py)
+
 ADP is a moving number, and was captured prior to spring training and the ADP is the average across all fantrax tenants as of March 1 2025. 
  
 The salary is specific to the Bestballer 150 League, and represents the bid amount/injured pickup value limited to the 12 league managers in our fantrax tenant. 
@@ -26,11 +31,8 @@ Salary was normalized, by position, with a 0-1 scale
 
 Z-Scores were calculated to standardize them for the purpose of the index.
 ![Alt text](https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg)
-https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg
 
 ![Alt_text](https://github.com/mallsup75/FanPy/blob/main/OFD_normalized_impact_multiaxis_view.jpg)
-
-(ADP factored with Player Salary is used in the calculation.) 
 
 <All data sourced from fantrax is sourced api via python using apache airflow >>
 
