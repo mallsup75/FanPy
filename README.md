@@ -1,5 +1,6 @@
 # FanPy
 End-to-End Data Engineering Components using python 
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/python/img/why-apache-airflow.JPG)
 
 DAG Setup: Designed an Apache Airflow DAG to automate the process
 ![Alt_text](https://github.com/mallsup75/FanPy/blob/main/python/img/py-players-to-blob-dag.JPG)
