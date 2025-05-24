@@ -9,8 +9,9 @@ Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, pars
 
 Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
 
-Link to PDF w/ design diagram and walk through: https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf
-
+Link to PDF w/ design diagram and walk through: 
+https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf
+[View the PDF](https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf)
  
 The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric). 
 
@@ -24,10 +25,10 @@ ADP was normalized , by position, with a 0-1 scale
 Salary was normalized, by position, with a 0-1 scale 
 
 Z-Scores were calculated to standardize them for the purpose of the index.
-
+![Alt text](https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg)
 https://github.com/mallsup75/FanPy/blob/main/2b_normalized_impact_multiaxis_view.jpg
 
-https://github.com/mallsup75/FanPy/blob/main/OFD_normalized_impact_multiaxis_view.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/OFD_normalized_impact_multiaxis_view.jpg)
 
 (ADP factored with Player Salary is used in the calculation.) 
 
@@ -39,31 +40,31 @@ At a player level, Elly De La Cruz is the best keeper in the league. With a $4M 
  
 Tigers Rock! Has the best keepers, and you can see how the rest shakes out.  
 
-https://github.com/mallsup75/FanPy/blob/main/top_value_zone.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/top_value_zone.jpg)
 
 The worst:
-https://github.com/mallsup75/FanPy/blob/main/worst_value_zone.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/worst_value_zone.jpg)
 
 Value Zone samples:
-https://github.com/mallsup75/FanPy/blob/main/1b_value_zone.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/1b_value_zone.jpg)
 
-https://github.com/mallsup75/FanPy/blob/main/P_value_zone.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/P_value_zone.jpg)
 
-https://github.com/mallsup75/FanPy/blob/main/SS_value_zone.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/SS_value_zone.jpg)
 
 Top 100 ADP Sampling. The difference between a Keeper and a perennial free agent. Displayed is salary trend by player and franchise.
 
-https://github.com/mallsup75/FanPy/blob/main/spark_overyear_sample.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/spark_overyear_sample.jpg)
 
-https://github.com/mallsup75/FanPy/blob/main/tale_of_keeper_or_not.jpg
+![Alt_text]https://github.com/mallsup75/FanPy/blob/main/tale_of_keeper_or_not.jpg)
 
 Top 150 ADP Head to Head.
 How do top players stack up, head to head, for two pairs of rosters?
 
 
-https://github.com/mallsup75/FanPy/blob/main/ham_v_steamers.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/ham_v_steamers.jpg)
 
-https://github.com/mallsup75/FanPy/blob/main/snow_v_bluberry.jpg
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/snow_v_bluberry.jpg)
 
 Top 100 ADP Sampling.
 Worst drops/trades/not kept of fantrax area?
