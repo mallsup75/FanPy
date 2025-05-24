@@ -10,7 +10,7 @@ Tasks: List Blobs: Download and Parse: Fetch JSONs using BlobServiceClient, pars
 Tranform blobs to csv. Merge Csv datasources, merge files, normalize metrics, engineer features via pandas.
 
 Link to PDF w/ design diagram and walk through: 
-https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf
+![Alt_text](https://github.com/mallsup75/FanPy/blob/main/fanpy_arch_diag.JPG)
 [View the PDF](https://github.com/mallsup75/FanPy/blob/main/fanpy_datapipeline_proj.pdf)
  
 The value score approach is a composite index combining salary and ADP where lower values of both are ideal (e.g. a “value” metric). 
