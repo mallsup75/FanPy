@@ -1,7 +1,0 @@
-golden_record_id | first_name | last_name | email                    | address             | phone_number | system_name | source_customer_id | source_email                | confidence_score
------------------|------------|-----------|--------------------------|---------------------|--------------|-------------|--------------------|-----------------------------|-----------------
-1                | John       | Doe       | john.doe@example.com     | 123 Main St, NY     | 555-1234     | CRM         | 101                | john.doe@example.com        | 0.99
-1                | John       | Doe       | john.doe@example.com     | 123 Main St, NY     | 555-1234     | eCommerce   | 101                | johnny.doe@ecommerce.com    | 0.95
-1                | John       | Doe       | john.doe@example.com     | 123 Main St, NY     | 555-1234     | ERP         | 101                | john.doe@company.com        | 0.97
-4                | Bob        | Brown     | bob.brown@example.com    | 101 Maple St, FL    | 555-1122     | CRM         | 104                | bob.brown@example.com       | 0.99
-4                | Bob        | Brown     | bob.brown@example.com    | 101 Maple St, FL    | 555-1122     | ERP         | 104                | bob.brown@example.com       | 0.99
